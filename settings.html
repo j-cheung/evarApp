@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<meta name = "viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='//fonts.googleapis.com/css?family=Comfortaa:400,700,300|Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
+		<script src="jquery.fittext.js"></script>
+		<title>Settings</title>
+	</head>
+
+	<body>
+		<div class="header">
+			<a href="index.html">
+				<div class="backArrow">
+					<img src="images/backArrow.png">
+				</div>
+			</a>
+			<span>SETTINGS</span>
+		</div>
+		<div id="bigWipe">
+			<div id="bin">
+				<img src="images/bin.png">
+			</div>
+			<div id="wipeLabel">
+				<span>WIPE<br>ALL<br>DATA</span>
+			</div>
+		</div>
+		<div class="smallSettings">
+			<div class="settingsLeft">
+				<span>APP VERSION</span>
+			</div>
+			<div class="settingsRight">
+				<span>v1.0.0</span>
+			</div>
+		</div>
+		<div class="smallSettings">
+			<div class="settingsTerms">
+				<span>TERMS & CONDITIONS</span>
+			</div>
+			<div class="settingsRight">
+			</div>
+		</div>
+		<div class="smallSettings">
+			<div class="settingsLeft">
+				<span>REFERENCES</span>
+			</div>
+			<div class="settingsRight">
+			</div>
+		</div>
+		<div class="smallSettings">
+			<div class="settingsLeft">
+				<span>CREATORS</span>			
+			</div>
+			<div class="settingsRight">
+			</div>
+		</div>
+		<div class="bigSettings">
+			<div class="settingsLeft">
+				<span>DISCLAIMER</span>			
+			</div>
+			<div class="disclaimerRight">
+				<span>all suggestions given by app are only to be used as guidance. we do not take any responsibility for user's medical decisions.</span>
+			</div>
+		</div>
+		<script>
+			$('.header').fitText(2);
+			$('#wipeLabel').fitText(0.4);
+			$('.settingsLeft').fitText(1);
+			$('.settingsRight').fitText(1);
+			$('.settingsTerms').fitText(1.55);
+			$('.disclaimerRight').fitText(1.2);
+			
+		</script>
+	</body>
+</html>

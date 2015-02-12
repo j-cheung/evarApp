@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<meta name = "viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='//fonts.googleapis.com/css?family=Comfortaa:400,700,300|Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
+		<script src="jquery.fittext.js"></script>
+		<script>
+			function goBack() {
+			    window.history.back()
+			}
+		</script>
+		<title>Recommended Parts</title>
+	</head>
+
+	<body>
+		<div class="header">
+				<div class="backArrow" onclick="goBack()">
+					<img src="images/backArrow.png">
+				</div>
+			<span>SAVE AS</span>
+		</div>
+		<div class="saveTitle" id="label1">
+			<span>NAME</span>
+		</div>
+		<input type="text" name="filename" class="saveField">
+		<div class="saveTitle" id="label1">
+			<span>ID#</span>
+		</div>
+		<input type="number" name="filename" class="saveField">
+		<div class="save" id="label1">
+			<span>SAVE</span>
+		</div>
+		<script>
+			$('.header').fitText(2);
+			$('.saveTitle').fitText(0.5);
+			$('.save').fitText(1.5);
+		</script>
+	</body>
+</html>
+		

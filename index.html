@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<meta name = "viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="jquery.fittext.js"></script>
+		<script type="text/javascript">
+
+		function splashScreen(){
+			var splashDiv = document.getElementById("splashLogo");
+			setTimeout(fadeOut,1500);
+
+		}
+
+		function fadeOut(){
+
+			document.getElementById("splashLogo").style.opacity='0.0';
+			document.getElementById("splashLogo").style.visibility='hidden';
+		}
+
+		</script>
+		<title>HomePage</title>
+	</head>
+
+	<body onload="splashScreen()">
+		
+			<div id="splashLogo">
+				<span>EVARplan</span>
+			</div>
+		
+		<div id="logoTab">
+			<div id="logo"></div>
+			<div class="name">
+				<span>EVARplan</span>
+			</div> 
+		</div>
+		<a href="measureEvar.html">
+		<div id="EVAR">
+			<div class="plan">
+				<span>plan</span>
+			</div>
+			<div class="var">
+				<div class="vartop">
+					<span>EVAR</span>
+				</div>
+				<div class="varbot">
+					<span>Endo<br>Vascular<br>Aneurysm<br>Repair</span>
+				</div>
+			</div>
+		</div>
+		</a>
+		<a href="measureTvar.html">
+		<div id="TVAR">
+			<div class="plan">
+				<span>plan</span>
+			</div>
+			<div class="var">
+				<div class="vartop thoracic">
+					<span>TVAR</span>
+				</div>
+				<div class="varbot">
+					<span>Thoracic<br>Vascular<br>Aneurysm<br>Repair</span>
+				</div>
+			</div>
+		</div>
+		</a>
+		<a href="sizingSheets.html">
+			<div class="homeLinks">
+				<span >sizing sheets</span>
+			</div>
+		</a>
+		<a href="records.html">
+		<div class="homeLinks" >
+			<span>records</span>
+		</div>
+		</a>
+		<a href="settings.html">
+		<div class="homeLinks" >
+			<span>settings</span>
+		</div>
+		</a>
+		<script>
+				jQuery('.vartop').fitText(0.4);
+				jQuery('.varbot').fitText(0.40, {maxFontSize: '18pt'});
+				jQuery('.plan').fitText(0.25);
+				jQuery('.homeLinks').fitText(1.3);
+				jQuery('.name').fitText(0.5);
+				jQuery('.send').fitText(1);
+				jQuery('#splashLogo').fitText();
+
+		</script>
+	</body>
+</html>
