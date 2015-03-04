@@ -832,7 +832,7 @@ img{
     width: inherit;
     height: 30%;
     z-index: 5;
-    color:#70edc3;
+    background-color:#70edc3;
 }
 .measureMid{
     width: inherit;
