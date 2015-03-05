@@ -831,20 +831,20 @@ img{
 .measureTop{
     width: 100%;
     height: 30%;
-    z-index: 10000;
+    z-index: 5;
     background-color:#70edc3;
 }
 .measureMid{
-    width: inherit;
-    height: 40%;
-    z-index: 5;
-
-}
-.measureBot{
-    width: inherit;
+    width: 100%;
     height: 30%;
     z-index: 5;
-
+    background-color:#70daed;
+}
+.measureBot{
+    width: 100%;
+    height: 30%;
+    z-index: 5;
+    background-color:#ee9cef;
 }
 
 .measure img{
