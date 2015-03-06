@@ -874,8 +874,8 @@ img{
 }
 
 #width1{
-	left: 47%;
-	top: 11%;
+	left: 46.5%;
+	top: 10.5%;
 	position: absolute;
 }
 
@@ -885,15 +885,15 @@ img{
 	position: absolute;
 }
 
-#width2{
-	top: 32%;
-	left: 53%;
+#length2{
+	top: 31%;
+	left: 51%;
 	position: absolute;
 }
 
-#length2{
-	left: 24%;
-	top: 40%;
+#width2{
+	left: 25%;
+	top: 41%;
 	position: absolute;
 }
 
