@@ -821,7 +821,6 @@ img{
 }
 
 .measure{
-	text-align: center;
 	width: 100%;
 	height: 80%;
     float:left;
@@ -830,22 +829,22 @@ img{
 }
 
 .measureTop{
-    width: 100%;
+    width: inherit;
     height: 30%;
     z-index: 5;
-    background-color:#70edc3;
+    color:#70edc3;
 }
 .measureMid{
-    width: 100%;
-    height: 40%;
-    z-index: 5;
-    background-color:#70daed;
-}
-.measureBot{
-    width: 100%;
+    width: inherit;
     height: 30%;
     z-index: 5;
-    background-color:#ee9cef;
+
+}
+.measureBot{
+    width: inherit;
+    height: 30%;
+    z-index: 5;
+
 }
 
 .measure img{
@@ -855,15 +854,38 @@ img{
     max-height: 100%;
     float: left;
     position:absolute;
-    top: 0;
-  	left: 50%;
-  	-webkit-transform: translateX(-50%);
-  	-ms-transform: translateX(-50%);
-  	transform: translateX(-50%);
-    z-index: 7;
+    top:0;
+    z-index: 4;
 }
 
+.measureField{
+	width: 5%;
+	margin-left: 5%;
+	background-color: #f0f0f0;
+	height: 6%;
+	margin-top: 0%;
+	box-shadow: 0;
+	border: 0px;
+	color: #433f3f;
+}
 
+.measureField span{
+	margin-left: 3%;
+	display: inline-block;
+	line-height: 100%;
+	position: relative;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+	font-weight: 600;
+}
+
+.measureField:focus, textarea:focus{
+	border: 2px solid #70edc3;
+
+  	outline: none;
+}
 
 .complete{
 	width: 90%;
