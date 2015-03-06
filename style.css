@@ -862,13 +862,12 @@ img{
 
 .measureField{ 
 	width: 10%;
-	background-color: #f0f0f0;
+	background-color: #433f3f;
 	height: 5%;
 	box-shadow: 0;
 	border: 0px;
-	color: #433f3f;
+	color: #70edc3;
 	z-index: 9;
-	opacity: 0.5;
 }
 
 #width1{
