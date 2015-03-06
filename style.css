@@ -833,19 +833,16 @@ img{
     width: 100%;
     height: 30%;
     z-index: 5;
-    background-color:#70edc3;
 }
 .measureMid{
     width: 100%;
     height: 30%;
     z-index: 5;
-    background-color:#70daed;
 }
 .measureBot{
     width: 100%;
     height: 40%;
     z-index: 5;
-    background-color:#ee9cef;
 }
 
 .measure img{
@@ -922,14 +919,14 @@ img{
 }
 
 #rightWidth1{
-	top: 63%;
-	left: 55%;
+	top: 70%;
+	left: 60%;
 	position: absolute;
 }
 
 #rightWidth2{
-	top: 75%;
-	left: 62.5%;
+	top: 84%;
+	left: 65%;
 	position: absolute;
 }
 
