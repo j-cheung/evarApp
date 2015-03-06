@@ -868,6 +868,8 @@ img{
 	border: 0px;
 	color: #70edc3;
 	z-index: 9;
+	text-align: center;
+	font-weight: 600;
 }
 
 #width1{
