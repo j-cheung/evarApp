@@ -863,7 +863,7 @@ img{
     z-index: 7;
 }
 
-.measureField{
+.measureField{ 
 	width: 10%;
 	background-color: #f0f0f0;
 	height: 5%;
@@ -873,17 +873,34 @@ img{
 	z-index: 9;
 }
 
-#angle1{
-	left: 50%;
-	top: 20%;
+#width1{
+	left: 45%;
+	top: 15%;
 	position: absolute;
 }
 
 #length1{
 	left: 30%;
-	top: 50%;
+	top: 17%;
 	position: absolute;
 }
+
+#width2{
+	top: 30%;
+	left: 52%;
+	position: absolute;
+}
+
+#length2{
+	left: 25%;
+	top: 45%;
+	position: absolute;
+}
+
+
+
+
+
 
 .measureField span{
 	margin-left: 3%;
