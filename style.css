@@ -832,7 +832,6 @@ img{
     width: inherit;
     height: 30%;
     z-index: 5;
-    color:#70edc3;
 }
 .measureMid{
     width: inherit;
@@ -844,7 +843,6 @@ img{
     width: inherit;
     height: 30%;
     z-index: 5;
-
 }
 
 .measure img{
@@ -860,13 +858,23 @@ img{
 
 .measureField{
 	width: 5%;
-	margin-left: 5%;
 	background-color: #f0f0f0;
-	height: 6%;
-	margin-top: 0%;
+	height: 20%;
 	box-shadow: 0;
 	border: 0px;
 	color: #433f3f;
+}
+
+#angle1{
+	left: 50%;
+	top: 20%;
+	position: absolute;
+}
+
+#length1{
+	left: 30%;
+	top: 50%;
+	position: absolute;
 }
 
 .measureField span{
@@ -883,7 +891,6 @@ img{
 
 .measureField:focus, textarea:focus{
 	border: 2px solid #70edc3;
-
   	outline: none;
 }
 
