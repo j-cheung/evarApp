@@ -862,11 +862,11 @@ img{
 
 .measureField{ 
 	width: 8%;
-	background-color: #433f3f;
+	background-color: #70edc3;
 	height: 5%;
 	box-shadow: 0;
 	border: 0px;
-	color: #70edc3;
+	color: #433f3f;
 	z-index: 9;
 	text-align: center;
 	font-weight: 600;
@@ -874,7 +874,7 @@ img{
 
 #width1{
 	top: 10.5%;
-	left: 46%;
+	left: 47%;
 	position: absolute;
 }
 
