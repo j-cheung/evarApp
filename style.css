@@ -872,39 +872,39 @@ img{
 	font-weight: 600;
 }
 
-#width1{
+#topWidth1{
 	top: 10.5%;
 	left: 47%;
 	position: absolute;
 }
 
-#length1{
+#topLength1{
 	top: 18.5%;
-	left: 30%;
+	left: 29%;
 	position: absolute;
 }
 
-#length2{
+#midLength1{
 	top: 31%;
 	left: 51%;
 	position: absolute;
 }
 
-#width2{
+#midWidth1{
 	top: 42%;
-	left: 27%;
+	left: 25%;
 	position: absolute;
 }
 
 #leftLength{
 	top: 69%;
-	left: 19%;
+	left: 18%;
 	position: absolute;
 }
 
 #leftWidth1{
 	top: 69.5%;
-	left: 35%;
+	left: 34%;
 	position: absolute;
 }
 
